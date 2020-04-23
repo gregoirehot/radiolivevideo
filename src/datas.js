@@ -25,7 +25,7 @@ export const radios = [
     logo:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Guadeloupe_La_1%C3%A8re.svg/1200px-Guadeloupe_La_1%C3%A8re.svg.png",
     iframe:
-      '<iframe width="560" height="315" src="https://www.youtube.com/embed/yatMGM4TBLM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/cNVCPuv3f30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
     hide: false,
     shareCode: "guadeloupeLa1ere",
   },
@@ -155,6 +155,16 @@ export const radios = [
       '<iframe width="560" height="315" src="https://www.youtube.com/embed/Me7X28oS9-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
     hide: false,
     shareCode: "tupiFmRio",
+  },
+  {
+    name: "Beach Grooves",
+    link: "https://beachgrooves.com/bgtv/",
+    logo:
+      "https://beachgrooves.com/wp-content/uploads/2017/10/logo-beachgrooves-negro-horizontal-new-tagline.png",
+    iframe:
+      '<iframe src="https://player.twitch.tv/?allowfullscreen&amp;channel=beachgroovesradio&amp;origin=https%3A%2F%2Fhuzzaz.com" width="100%" height="100%" frameborder="0" scrolling="no" allow="autoplay; fullscreen" allowfullscreen=""></iframe>',
+    hide: false,
+    shareCode: "beachGrooves",
   },
 ];
 
