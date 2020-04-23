@@ -91,7 +91,7 @@ function Home() {
                     {radio?.link}
                   </a>
                 </div>
-                <div className="col">
+                {/* <div className="col">
                   <span
                     aria-label="Source Website"
                     role="img"
@@ -105,7 +105,7 @@ function Home() {
                   >
                     radio/{radio?.shareCode}
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

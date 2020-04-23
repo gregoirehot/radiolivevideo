@@ -31,8 +31,11 @@ function App() {
         <Router>
           <Header />
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/radio/:shareCode" component={Radio} />
+            <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
+            <Route
+              path={process.env.PUBLIC_URL + "/radio/:shareCode"}
+              component={Radio}
+            />
           </Switch>
           <Footer />
         </Router>
