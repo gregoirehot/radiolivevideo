@@ -20,7 +20,7 @@ function Radio(props) {
             <div className="embed-responsive embed-responsive-16by9">
               {getRadioByShareCode(shareCode)
                 ? renderHTML(getRadioByShareCode(shareCode)?.iframe)
-                : "Not Available"}
+                : "Not Available now"}
             </div>
             <div className="card-footer text-muted">
               <div className="row">
